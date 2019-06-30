@@ -1,0 +1,101 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.container {
+
+margin-left:-10px;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #AA3F58;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand {
+  padding:15px;
+  
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Allura', cursive;
+  color: #FFC300;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: left;
+  }
+
+
+
+#nav-list {
+  margin-top: 0px;
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+
+#nav-list li {
+  border:1px black solid;
+  margin-right:-20px;
+  padding-bottom:15px;
+  background-color: #FFC300;
+  text-align: center;
+}
+#nav-list a {
+  color: #AA3F58;
+
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle {
+  clear:both;
+  margin-top: -30px;
+}
+
+h2 {
+  color:black;
+  margin-top:20px;
+  margin-bottom: 50px;
+  font-family
+
+}
+
+.col-xs-12 {
+  color:black;
+   border:2px solid black;
+   background-color: #8CC26B;
+   padding:15px;
+}
+
+h3{
+  margin-bottom: 15px;
+}
+
+/* END HEADER */
+
+
+@media (min-width:540px) {
+  .navbar-toggler-icon, #collapsable-nav {
+    display:none;
+    float:right;
+    vertical-align: right;
+  }
+}
+
+@media (max-width:539.9px) {
+  .navbar-toggler-icon {
+margin-left:200px;
+  }
+}
+
+
